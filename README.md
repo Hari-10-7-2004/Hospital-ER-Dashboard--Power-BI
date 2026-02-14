@@ -26,10 +26,7 @@ The dashboard is divided into several analytical sections:
 ## 🛠 Tech Stack & Skills
 * **Tool**: Power BI Desktop
 * **Data Cleaning**: Power Query (handling nulls in satisfaction scores and formatting dates).
-* **Calculations**: DAX (Data Analysis Expressions) used for:
-    * `Average Wait Time`
-    * `Admission Rate %`
-    * `Year-over-Year Patient Growth`
+* **Calculations**: DAX (Data Analysis Expressions) used.
 * **Data Source**: Flat CSV file (`Hospital ER_Data.csv`).
 
 ---
@@ -37,7 +34,7 @@ The dashboard is divided into several analytical sections:
 ## 🚀 How to View the Project
 1.  **Download** the `Medical report.pbix` file from this repository.
 2.  **Open** the file using [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3.  **Interact** with the slicers on the dashboard to filter data by **Date, Department, or Demographics**.
+3.  **Interact** with the slicers on the dashboard to filter data.
 
 ---
 
