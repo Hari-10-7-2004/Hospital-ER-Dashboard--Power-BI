@@ -1,57 +1,57 @@
-Hospital ER Dashboard (Power BI)
-Hello! 👋
-This is a Power BI dashboard that provides a comprehensive analysis of Hospital Emergency Room (ER) operations using data from 2023 and 2024. It helps healthcare administrators explore patient flows, wait times, and satisfaction levels to improve service delivery.
+# 🏥 Hospital ER Visit Analysis Dashboard
 
-📁 What's Included?
-Medical report.pbix → The main Power BI dashboard.
+## 📊 Project Overview
+This Power BI dashboard provides a deep dive into **Emergency Room (ER) operations** and patient analytics. Using data from 2023 and 2024, the report tracks key performance indicators (KPIs) like patient volume, wait times, and satisfaction scores to help healthcare administrators optimize staffing and improve patient care.
 
-Hospital ER_Data.csv → The raw dataset containing patient admission records.
+---
 
-Hospital ER Analysis Document.pdf → (Suggested) Documentation detailing the dashboard's design and DAX calculations.
+## 📁 Repository Structure
+* **`Medical report.pbix`** → The primary interactive Power BI dashboard.
+* **`Hospital ER_Data.csv`** → The raw dataset containing over 9,000 patient records.
+* **`README.md`** → Project documentation and guide.
 
-✨ What You Can See in the Dashboard
-✅ Patient Volume & Admission Rates: Total number of ER visits and the percentage of patients formally admitted.
+---
 
-📅 Temporal Trends: Monthly and daily patterns of patient arrivals from April 2023 to October 2024.
+## ✨ Key Insights & Visualizations
+The dashboard is divided into several analytical sections:
 
-🏥 Departmental Analysis: Breakdown of referrals across departments such as General Practice, Orthopedics, Cardiology, and more.
+* **🚀 Executive Summary**: Total patient count, admission rates, and overall satisfaction trends.
+* **⏳ Efficiency Metrics**: Analysis of **Patient Wait Times** across different hours of the day and days of the week.
+* **🏥 Departmental Referrals**: Tracking patient flow into specialties like *Cardiology, Neurology, Orthopedics, and Renal*.
+* **👥 Demographics**: Breakdown of patient visits by **Age, Gender, and Race** to ensure equitable care.
+* **⭐ Patient Experience**: Correlation between wait times and satisfaction scores (1-10).
 
-⏳ Wait Time Analysis: Tracking of patient wait times to identify peak periods and bottlenecks.
+---
 
-⭐ Patient Experience: Visualization of satisfaction scores to monitor quality of care.
+## 🛠 Tech Stack & Skills
+* **Tool**: Power BI Desktop
+* **Data Cleaning**: Power Query (handling nulls in satisfaction scores and formatting dates).
+* **Calculations**: DAX (Data Analysis Expressions) used for:
+    * `Average Wait Time`
+    * `Admission Rate %`
+    * `Year-over-Year Patient Growth`
+* **Data Source**: Flat CSV file (`Hospital ER_Data.csv`).
 
-👤 Demographic Insights: Analysis of patient arrivals by Gender, Age group, and Race.
+---
 
-🛠 Tools Used
-Power BI Desktop
+## 🚀 How to View the Project
+1.  **Download** the `Medical report.pbix` file from this repository.
+2.  **Open** the file using [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+3.  **Interact** with the slicers on the dashboard to filter data by **Date, Department, or Demographics**.
 
-Power Query (for data cleaning and transformation)
+---
 
-DAX (to create measures like Average Wait Time and Admission Rate)
+## 📖 Data Dictionary
+| Column Name | Description |
+| :--- | :--- |
+| **Patient Id** | Unique identifier for each patient visit. |
+| **Admission Date** | Timestamp of when the patient entered the ER. |
+| **Patient Waittime** | Minutes spent waiting before being seen. |
+| **Department Referral** | The specific medical department the patient was sent to. |
+| **Admission Flag** | Boolean (True/False) indicating if the patient was admitted to the hospital. |
+| **Satisfaction Score** | Patient-reported rating of their experience. |
 
-CSV (as the primary data source)
+---
 
-🚀 How to Use
-Open Medical report.pbix using Power BI Desktop.
-
-Use the slicers (filters) on the side or top to filter data by date, department, or patient demographics.
-
-Hover over charts to see detailed tooltips about specific data points.
-
-📖 Data Overview
-The dashboard is powered by the Hospital ER_Data.csv file, which includes:
-
-Patient Id: Unique identifier for each visit.
-
-Admission Date: Date and time of arrival.
-
-Wait Time: The time spent before receiving care.
-
-Department Referral: The specialty the patient was referred to (e.g., Physiotherapy, Neurology, Renal).
-
-Admission Flag: Indicates if the ER visit resulted in a hospital admission.
-
-Satisfaction Score: Rating provided by the patient (1-10).
-
-Made with 💙 using Power BI
-By Harini SV
+### Developed with 💙 by **Harini SV**
+*Feel free to connect with me if you have any questions about the DAX measures or data cleaning steps used in this project!*
